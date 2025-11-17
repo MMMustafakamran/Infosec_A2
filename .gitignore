@@ -1,0 +1,47 @@
+# Private keys and certificates - NEVER COMMIT
+certs/*.key.pem
+certs/*.pem
+!certs/*.cert.pem.example
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv
+
+# Session transcripts and receipts (may contain sensitive data)
+transcripts/*.log
+transcripts/*.json
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+
+# Database dumps (if any)
+*.sql
+*.dump
+
+# Logs
+*.log
+
+# Wireshark captures (may contain sensitive network data)
+*.pcap
+*.pcapng
+
